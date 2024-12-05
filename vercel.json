@@ -1,0 +1,11 @@
+{
+    "build": {
+      "ignore": ["src/components/Cart.jsx"] 
+    },
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
