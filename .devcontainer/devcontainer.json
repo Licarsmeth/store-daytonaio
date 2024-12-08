@@ -4,18 +4,5 @@
     "forwardPorts": [
       3000
     ],
-    "customizations": {
-      "vscode": {
-        "settings": {
-          "eslint.enable": true,
-          "editor.formatOnSave": true
-        },
-        "extensions": [
-          "dbaeumer.vscode-eslint",
-          "esbenp.prettier-vscode",
-          "vscode-react-native"
-        ]
-      }
-    },
     "postCreateCommand": "npm install"
   }
