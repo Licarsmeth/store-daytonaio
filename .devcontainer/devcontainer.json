@@ -1,6 +1,6 @@
 {
     "name": "React Vite Development Environment",
-    "image": "mcr.microsoft.com/devcontainers/javascript:node",
+    "image": "mcr.microsoft.com/devcontainers/javascript:node:18",
     "forwardPorts": [
       3000
     ],
