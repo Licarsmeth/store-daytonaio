@@ -4,5 +4,18 @@
     "forwardPorts": [
       3000
     ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "javascript.validate.enable": true,
+          "editor.formatOnSave": true
+        },
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    },
     "postCreateCommand": "npm install"
   }
