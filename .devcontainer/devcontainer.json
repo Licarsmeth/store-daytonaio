@@ -1,21 +1,22 @@
 {
-    "name": "React Vite Development Environment",
-    "image": "mcr.microsoft.com/devcontainers/javascript:node:18",
-    "forwardPorts": [
-      3000
-    ],
-    "customizations": {
-      "vscode": {
-        "settings": {
-          "javascript.validate.enable": true,
-          "editor.formatOnSave": true
-        },
-        "extensions": [
-          "dbaeumer.vscode-eslint",
-          "esbenp.prettier-vscode",
-          "ms-azuretools.vscode-docker"
-        ]
-      }
-    },
-    "postCreateCommand": "npm install"
-  }
+  "name": "React Vite Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "forwardPorts": [
+    3000
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "javascript.validate.enable": true,
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+
+}
