@@ -1,6 +1,8 @@
 # Sample Javascript/ React 
 
-A store that shows some fake products to buy
+A store that shows some fake products to buy.
+Tech stack: ReactJS, Vite, CSS
+Api used: https://fakestoreapi.com
 
 ## 🚀 Getting Started  
 
@@ -21,6 +23,8 @@ A store that shows some fake products to buy
 
 ## ✨ Features  
 
-- add to cart
-- view items
-- buy selected items
+- View all the products available in the shop
+- Add products to cart
+- Edit the items and their amount from the cart
+- Remove unwanted items
+- Finally, checkout once you've decided you wanna buy those items.

@@ -30,10 +30,16 @@ const Checkout = function ({ handleCheckout }) {
   );
 };
 
-const Cartdata = function ({ cartList, handleRemoveButton, plusItem, minusItem }) {
+const Cartdata = function ({
+  cartList,
+  handleRemoveButton,
+  plusItem,
+  minusItem,
+}) {
+  const items = cartList();
   return (
     <>
-      {cartList.map((list) => (
+      {items.map((list) => (
         <tr key={list.id} className="list">
           <td>
             <img src={list.image} alt="item" className="cartimg" />
@@ -42,8 +48,8 @@ const Cartdata = function ({ cartList, handleRemoveButton, plusItem, minusItem }
           <td>
             <NumberInput
               amount={list.quantity}
-              plusItem = {() => plusItem(list.id)}
-              minusItem = {() => minusItem(list.id)}
+              plusItem={() => plusItem(list.id)}
+              minusItem={() => minusItem(list.id)}
               removeItem={() => handleRemoveButton(list.id)}
             />
           </td>
